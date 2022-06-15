@@ -1,10 +1,10 @@
 {
   "users": {
-    "6285643354073@s.whatsapp.net": {
+    "6285822347348@s.whatsapp.net": {
       "exp": 51180,
       "limit": 10,
       "lastclaim": 1640607557553,
-      "registered": false,
+      "registered": true,
       "name": "Elyas",
       "age": -1,
       "regTime": -1,
@@ -61,11 +61,11 @@
       "lastmonthly": 0,
       "petFood": 0
     },
-    "62856433540736@s.whatsapp.net": {
+    "6285822347348@s.whatsapp.net": {
       "exp": 12867,
       "limit": 100,
       "lastclaim": 0,
-      "registered": false,
+      "registered": true,
       "name": "F",
       "age": -1,
       "regTime": -1,
