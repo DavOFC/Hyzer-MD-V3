@@ -145,7 +145,7 @@ module.exports = {
                     if (!isNumber(user.makananpet)) user.makananpet = 0
         
                     if (!isNumber(user.antispam)) user.antispam = 0
-                    if (!isNumber(user.antispamlastclaim)) user.antispamlastclaim = 0
+                    if (!isNumber(user.antispamlastclaim)) user.antispamlastclaim = 5
         
                     if (!isNumber(user.kayu)) user.kayu = 0
                     if (!('kingdom' in user)) user.kingdom = false
@@ -212,12 +212,13 @@ module.exports = {
                     if (!isNumber(user.lasthourly)) user.lasthourly = 0
                     if (!isNumber(user.lastweekly)) user.lastweekly = 0
                     if (!isNumber(user.lastmonthly)) user.lastmonthly = 0
-                    if (!isNumber(user.lastIstigfar)) user.lastIstigfar = 0
+                    if (!isNumber(user.lastIstigfar)) user.lastIstigfar = 5
                     if (!isNumber(user.lastturu)) user.lastturu = 0
                     if (!isNumber(user.lastseen)) user.lastseen = 0
                     if (!isNumber(user.lastbansos)) user.lastbansos = 0
                     if (!isNumber(user.lastrampok)) user.lastrampok = 0
-                    if (!('registered' in user)) user.registered = false
+                    if (!('registered' in user)) user.registered = true
+
                     if (!user.registered) {
                     if (!('name' in user)) user.name = this.getName(m.sender)
         
