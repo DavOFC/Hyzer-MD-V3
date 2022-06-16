@@ -262,7 +262,7 @@ const ftroli = {
     itemCount : 2022,
     status: 1,
     surface : 1,
-    message: `Hai Kak ${name}!`, 
+    message: `Hallo Kak👋 ${name}!`, 
     orderTitle: `▮Menu ▸`,
     thumbnail: await (await fetch(fla + 'Menu')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
@@ -304,24 +304,24 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             description: menuu,
             buttonText: 'LIST MENU',
             listType: 1,
-            footerText: "𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
+            footerText: "𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷\nArullBotzMD",
             mtype: 'listMessage',
             sections: [
               {
                 "rows": [{
-                  "title": ` 👨 OWNER ArullBotzMD`,
-                  "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
+                  "title": ` 👨 OWNER Bot`,
+                  "description": "Nomor Pemilik ArullBotzMD Chat P/Meminta Save Tidak Akan Di Respon",
                   "rowId": `.owner`
                 },{
-                  "title": "❗ INFO ArullBotzMD",
+                  "title": "❗ INFO Bot",
                   "description": "Menampilkan Menu Info",
                   "rowId": `${_p}? info`
                 }],
                 "title": "INFORMASI BOT"
               }, {
                 "rows": [{
-                  "title": `│🧾│ SEMUA PERINTAH ArullBotzMD`,
-                  "description": "Menampilkan Menu All",
+                  "title": `│🧾│ SEMUA PERINTAH`,
+                  "description": "Menampilkan Semua Menu",
                   "rowId": '.? all'
                   }, {
                   "title": "│ 📝│ ABSEN & VOTING",
@@ -381,7 +381,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "rowId": `${_p}? maker`
                 }, {
                   "title": "│👨‍💻│OWNER",
-                  "description": "Menampilkan Menu Owner",
+                  "description": "Menampilkan Menu Khusus ArullOfc",
                   "rowId": `${_p}? owner`
                 }, {
                   "title": "│🎙│PENGUBAH SUARA",
@@ -433,7 +433,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "rowId": `${_p}? textpro`
                 }
                   ],
-                "title": "LIST MENU"
+                "title": "Silahkan Dipilih Cuy"
               }
             ], "contextInfo": {
               "stanzaId": m.key.id,
@@ -535,8 +535,8 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
            {
              quickReplyButton: {
-               displayText: 'Credits',
-               id: '.tqto',
+               displayText: 'Join Lah',
+               id: '.gc',
              }
            }]
          }
