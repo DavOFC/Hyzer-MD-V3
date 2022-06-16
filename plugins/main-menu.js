@@ -242,7 +242,7 @@ const fkontak = {
 	"key": {
     "participants":"0@s.whatsapp.net",
 		"remoteJid": "status@broadcast",
-		"fromMe": false,
+		"fromMe": true,
 		"id": "Halo"
 	},
 	"message": {
