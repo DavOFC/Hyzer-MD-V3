@@ -309,18 +309,18 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             sections: [
               {
                 "rows": [{
-                  "title": ` 👨 OWNER BOT`,
+                  "title": ` 👨 OWNER ArullBotzMD`,
                   "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
                   "rowId": `.owner`
                 },{
-                  "title": "❗ INFO BOT",
+                  "title": "❗ INFO ArullBotzMD",
                   "description": "Menampilkan Menu Info",
                   "rowId": `${_p}? info`
                 }],
                 "title": "INFORMASI BOT"
               }, {
                 "rows": [{
-                  "title": `│🧾│ SEMUA PERINTAH`,
+                  "title": `│🧾│ SEMUA PERINTAH ArullBotzMD`,
                   "description": "Menampilkan Menu All",
                   "rowId": '.? all'
                   }, {
@@ -507,28 +507,28 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             hydratedFooterText: wm2, 
             hydratedButtons: [{
             urlButton: {
-               displayText: 'Website Creator',
+               displayText: 'Youtube Creator',
                url: web
              }
 
            },
              {
              urlButton: {
-               displayText: 'Group Bot', 
+               displayText: 'Group Ofc ArullBotzMD', 
                url: gc
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'Owner',
+               displayText: 'Owner ArullBotzMD',
                id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'Donasi',
+               displayText: 'Donasi Donk(',
                id: '.donasi',
              }
 
@@ -549,7 +549,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
          { messageId: template.key.id }
      )
 } catch (e) {
-    conn.reply(m.chat, 'Maaf, menu sedang error', m)
+    conn.reply(m.chat, '*Maaf, menu sedang error*', m)
     throw e
   }
 }
