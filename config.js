@@ -4,16 +4,16 @@ global.mods = []
 global.prems = [] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'ArullOfc'
-global.numberowner = '6285822347348'
+global.nameowner = 'DapiSlebew'
+global.numberowner = '6281311262507'
 global.instagram = 'https://instagram.com/sahrulwara_____'
 global.github = 'https://github.com/sahrull11'
-global.dana = '085822347348'
-global.pulsa = '085822347348\n083843192208'
+global.dana = '6281311262507'
+global.pulsa = '6281311262507\n083843192208'
 global.gopay = ''
 
 //=============『 Info Bot 』=================//
-global.namebot = 'ArullBotzMD'
+global.namebot = 'SHIN Slebew! '
 global.gc = 'https://chat.whatsapp.com/Hs5rHr27xu49VRLgdliMfR'
 global.web = 'https://youtu.be/jOhhY7ef_qM' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = 'Open Sewa Bot:\nPermanen 15.000\n1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000\nJika Berminat Chat:\nhttps://wa.me/6285822347348'
@@ -25,8 +25,8 @@ global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
 global.wm = 'ArullBotzMD\nJangan Spam Y Kontol'
 global.watermark = wm
-global.wm2 = '                     「 ArullBotzMD あ⁩ 」'
-global.wm3 = '⫹⫺ ArullBotzMD\nJangan Spam Y Kontol'
+global.wm2 = '                   Dapi slebew あ⁩ 」'
+global.wm3 = '⫹⫺ DapiSlebew\nJangan Spam Y Kontol'
 global.htki = '––––––『' 
 global.htka = '』––––––'
 global.media = 'https://telegra.ph/file/hiruko.jpg'
@@ -37,7 +37,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '*Stiker sedang dibuat*'
 global.packname = 'Sticker By'
-global.author = '© ArullOfc'
+global.author = '© DapiSlwbew'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
