@@ -11,7 +11,7 @@ let ye = `@${m.sender.split`@`[0]}`
 let esce = `
 Hai ${ye} Lagi Nyari Sc Ya? 
 Chat tuh:
-wa.me/6285822347348
+wa.me/6281311262507
 
 conn.sendBut(m.chat, esce, wm3, 'Thanks', 'thanks', m) 
 }
